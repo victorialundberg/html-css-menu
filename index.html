@@ -5,20 +5,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="/css/normalize.css" type="text/css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" >
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" >
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" >
 </head>
 
 <body>
   <main>
     <nav>
-      <button>hamburgermeny</button>
+      <button class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <h1>Tough Cookie</h1>
+    </nav>
+    <nav>
+      <ul>
+        <li>home</li>
+        <li>menu</li>
+        <li>book table</li>
+      </ul>
     </nav>
     <section>
       <div>
@@ -91,35 +103,31 @@
           <p>pris</p>
         </div>
     </section>
-    <section>
-      <form action="">
+    <div>
+      <form action="http://127.0.0.1:5500/index.html">
         <fieldset>
           <legend>book your table</legend>
 
-          <label for="">name</label>
-          <input type="text">
+          <label for="name">name</label>
+          <input type="text" id="name">
 
-          <label for="">email</label>
-          <input type="text">
+          <label for="email">email</label>
+          <input type="text" id="email">
 
-          <label for="">phone</label>
-          <input type="text">
+          <label for="phone">phone</label>
+          <input type="text" id="phone">
 
-          <label for="">date</label>
-          <input type="text">
+          <label for="date">date</label>
+          <input type="text" id="date">
 
-          <label for="">party size</label>
-          <input type="text">
+          <label for="party-size">party size</label>
+          <input type="text" id="party-size">
 
-          <label for="">allergies</label>
-          <input type="text">
+          <label for="allergies">allergies</label>
+          <input type="text" id="allergies">
         </fieldset>
-        <button>
           <input type="reset" value="Cancel">
-        </button>
-        <button>
           <input type="submit" value="Request">
-        </button>
       </form>
       <div>
         <div>
@@ -141,12 +149,12 @@
           <p>Brända Tomten 111 31 Stockholm</p>
         </div>
       </div>
-    </section>
     <div>
       <p>you should accept cookies.</p>
       <button>decline</button>
       <button>accept</button>
     </div>
+  </div>
   </main>
 </body>
 
