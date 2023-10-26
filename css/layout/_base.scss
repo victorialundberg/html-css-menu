@@ -10,15 +10,15 @@ button.hamburger-menu {
     position: fixed;
     left: 20px;
     top: 20px;
-    z-index: 2;
+    z-index: 3;
     pointer-events: none;
 }
 
 button.hamburger-menu span {
     display: block;
-    width: 25px;
-    height: 3px;
-    background-color: white;
+    width: 35px; //ändrade storlek, nu matchar inte menyn checkboxen. Ändra sen!
+    height: 5px;
+    background-color: yellow;
     border-radius: 6px;
     margin-bottom: 4px;
 }
@@ -82,4 +82,10 @@ ul {
 
 li {
     padding: 0.75em;
+}
+
+h1 {
+    background-color: black;
+    z-index: 2;
+    color: white;
 }
