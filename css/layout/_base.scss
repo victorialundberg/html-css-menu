@@ -1,5 +1,8 @@
 main {
     font-family: 'Jockey One', sans-serif;
+    margin: 0;
+    top: 0;
+    padding: 0;
 }
 
 button.hamburger-menu {
@@ -8,8 +11,8 @@ button.hamburger-menu {
     background: transparent;
     border: 0;
     position: fixed;
-    left: 20px;
-    top: 20px;
+    left: 10px;
+    top: 10px;
     z-index: 3;
     pointer-events: none;
 }
@@ -25,9 +28,9 @@ button.hamburger-menu span {
 
 input.open-menu {
     position: fixed;
-    left: 20px;
-    top: 20px;
-    z-index: 1;
+    left: 10px;
+    top: 10px;
+    z-index: 4;
     width: 35px;
     height: 35px;
     opacity: 0;
@@ -86,6 +89,19 @@ li {
 
 h1 {
     background-color: black;
-    z-index: 2;
     color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    text-align: center;
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    height: 1.5em;
+    margin: 0;
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+}
+
+h2 {
+    margin: 0;
 }
