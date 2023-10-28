@@ -1,8 +1,5 @@
 main {
     font-family: 'Jockey One', sans-serif;
-    margin: 0;
-    top: 0;
-    padding: 0;
 }
 
 button.hamburger-menu {
@@ -13,7 +10,7 @@ button.hamburger-menu {
     position: fixed;
     left: 10px;
     top: 10px;
-    z-index: 3;
+    z-index: 4;
     pointer-events: none;
 }
 
@@ -61,7 +58,7 @@ nav {
     opacity: 0;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
     visibility: hidden;
-
+    z-index: 2;
 }
 
 input:checked + .menu nav {
@@ -93,7 +90,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 0.5em;
     text-align: center;
-    z-index: 2;
+    z-index: 3;
     position: fixed;
     width: 100vw;
     height: 1.5em;
@@ -102,6 +99,42 @@ h1 {
     padding-left: 0.5em;
 }
 
-h2 {
+.page-title {
     margin: 0;
+    padding-top: 7em;
+    background-color: black;
+    text-transform: uppercase;
+    position: relative;
+    min-width: 100px;
+    min-height: 100px;
+    z-index: 1;
+
+    div {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .drizzle, .chickpeas {
+        position: absolute;
+    }
+    .drizzle {
+        color: #ac77ff;
+        font-size: 1.57rem;
+        top: -9px;
+        right: 0px;
+    }
+    .tahini {
+    color: #5fff37;
+    font-size: 4rem;
+    }
+    .chickpeas {
+        color: #ff0;
+        font-size: 1.56rem;
+        left: 8px;
+        bottom: -6px;
+        z-index: -1;
+    }
 }
