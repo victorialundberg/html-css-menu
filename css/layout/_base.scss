@@ -33,18 +33,20 @@ input.open-menu {
     opacity: 0;
 }
 
-input:checked + .menu button.hamburger-menu span {
+input:checked+.menu button.hamburger-menu span {
     position: absolute;
     transition: all 0.3s ease-in-out;
 }
 
-input:checked + .menu button.hamburger-menu span:nth-child(2){
+input:checked+.menu button.hamburger-menu span:nth-child(2) {
     opacity: 0;
 }
-input:checked + .menu button.hamburger-menu span:nth-child(1){
+
+input:checked+.menu button.hamburger-menu span:nth-child(1) {
     transform: rotate(45deg);
 }
-input:checked + .menu button.hamburger-menu span:nth-child(3){
+
+input:checked+.menu button.hamburger-menu span:nth-child(3) {
     transform: rotate(-45deg);
 }
 
@@ -61,7 +63,7 @@ nav {
     z-index: 2;
 }
 
-input:checked + .menu nav {
+input:checked+.menu nav {
     visibility: visible;
     opacity: 1;
 }
@@ -84,8 +86,23 @@ li {
     padding: 0.75em;
 }
 
-.page-1 {
+.page-1, .second-paragraph {
     background-color: black;
+    text-align: center;
+    margin: 0;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-left: 5px solid yellow;
+    border-right: 5px solid yellow;
+    .first-paragraph {
+        color: #5fff37;
+    }
+
+    .second-paragraph {
+        color: #AC77FF;
+        background-color: white;
+        padding-top: 1em;
+    }
 }
 
 h1 {
@@ -120,19 +137,23 @@ h1 {
 
     }
 
-    .drizzle, .chickpeas {
+    .drizzle,
+    .chickpeas {
         position: absolute;
     }
+
     .drizzle {
         color: #ac77ff;
         font-size: 1.57rem;
         top: -9px;
         right: 0px;
     }
+
     .tahini {
-    color: #5fff37;
-    font-size: 4rem;
+        color: #5fff37;
+        font-size: 4rem;
     }
+
     .chickpeas {
         color: #ff0;
         font-size: 1.56rem;
@@ -140,12 +161,4 @@ h1 {
         bottom: -6px;
         z-index: -1;
     }
-}
-
-.first-paragraph {
-    color: #5fff37;
-    text-align: center;
-    margin: 0;
-    padding-left: 3em;
-    padding-right: 3em;
 }
