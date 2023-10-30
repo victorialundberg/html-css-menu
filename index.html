@@ -10,7 +10,8 @@
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jockey+One&family=Roboto+Condensed:wght@300&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -68,16 +69,23 @@
 
     <section class="page-2">
       <div class="photo-grid">
-        <figure>
-          <img src="assets/photos/resized/edgar-castrejon-1SPu0KT-Ejg-unsplash-2.jpg" width="" height="" loading=""
-            alt="" class="photo-1">
-        </figure>
-        <figure class="photo-2">
-          <img src="assets/photos/resized/kao-rodriguez-IeTzHiuepmU-unsplash.jpg" width="" height="" loading="" alt="">
-        </figure>
-        <figure class="photo-3">
-          <img src="assets/photos/resized/mor-shani-kQloRmVQYIs-unsplash.jpg" width="" height="" loading="" alt="">
-        </figure>
+        <div class="photo-1">
+          <figure>
+            <img src="assets/photos/resized/edgar-castrejon-1SPu0KT-Ejg-unsplash-2.jpg" width="" height="" loading=""
+              alt="">
+          </figure>
+        </div>
+        <div class="photo-2">
+          <figure>
+            <img src="assets/photos/resized/kao-rodriguez-IeTzHiuepmU-unsplash.jpg" width="" height="" loading=""
+              alt="">
+          </figure>
+        </div>
+        <div class="photo-3">
+          <figure>
+            <img src="assets/photos/resized/mor-shani-kQloRmVQYIs-unsplash.jpg" width="" height="" loading="" alt="">
+          </figure>
+        </div>
       </div>
       <div>
         <h3>Halloumi Moklieh</h3>
@@ -121,36 +129,40 @@
       <div>
         <h3>Mhamara</h3>
         <p>Spice bell pepper relish with crushed walnuts and pomegranate syrup</p>
-        <p class="price">123</p>
+        <p class="price">123 kr</p>
       </div>
     </section>
 
-    <div>
-      <form>
-        <fieldset>
-          <legend>book your table</legend>
-
+    <section class="page-3">
+      <div class="book-table">
+        <h2>book your table</h2>
+        <div>
           <label for="name">name</label>
           <input type="text" id="name">
-
+        </div>
+        <div>
           <label for="email">email</label>
           <input type="text" id="email">
-
+        </div>
+        <div>
           <label for="phone">phone</label>
           <input type="text" id="phone">
-
+        </div>
+        <div>
           <label for="date">date</label>
           <input type="text" id="date">
-
+        </div>
+        <div>
           <label for="party-size">party size</label>
           <input type="text" id="party-size">
-
+        </div>
+        <div>
           <label for="allergies">allergies</label>
           <input type="text" id="allergies">
-        </fieldset>
-        <input type="reset" value="Cancel">
-        <input type="submit" value="Request">
-      </form>
+        </div>
+        <input type="reset" value="Cancel" class="cancel">
+        <input type="submit" value="Request" class="request">
+      </div>
       <div>
         <div>
           <span class="material-symbols-outlined">
@@ -176,7 +188,7 @@
         <button>decline</button>
         <button>accept</button>
       </div>
-    </div>
+    </section>
   </main>
 </body>
 

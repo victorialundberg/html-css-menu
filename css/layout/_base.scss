@@ -125,8 +125,6 @@ li {
     }
 }
 
-
-
 h1 {
     background-color: black;
     color: white;
@@ -184,10 +182,12 @@ h1 {
         z-index: -1;
     }
 }
-
+/*figure {
+    width: 500px;
+}*/
 .page-2 {
     background-color: yellow;
-    div:not(.photo-grid, .new, .vegan, .popular) {
+    div:not(.photo-grid, .new, .vegan, .popular, .photo-1, .photo-2, .photo-3) {
         background-color: white;
         border-top: solid 2px black;
         border-bottom: solid 2px black;
@@ -198,7 +198,8 @@ h1 {
             display: inline-block;
         }
         span {
-            display: block;
+            display: inline-block;
+
         }
         .new {
             background-color: #AC77FF;
@@ -231,7 +232,40 @@ h1 {
         font-size: 1.5em;
     }
 }
+.page-3 {
+    background-color: #5fff37;
+    h2 {
+        text-align: center;
+    }
+    .book-table {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        display: flex;
+        flex-direction: column;
+        div {
+            display: flex;
+            justify-content: space-between;
+        }
+        input {
+            border-radius: 10px;
+            border: 0;
+        }
+    }
 
-/*plats för bilder*/
-
-
+    /*
+    .book-table{
+        text-transform: uppercase;
+        font-size: 1.5em;
+            input {
+                border-radius: 10px;
+                border: 0;
+            }
+            .cancel {
+                background-color: #AC77FF;
+            }
+            .request {
+                background-color: yellow;
+            }
+        }
+*/
+    }
