@@ -86,7 +86,9 @@ li {
     padding: 0.75em;
 }
 
-.page-1, .second-paragraph, .explore {
+.page-1,
+.second-paragraph,
+.explore {
     background-color: black;
     text-align: center;
     margin: 0;
@@ -94,6 +96,7 @@ li {
     padding-right: 3em;
     border-left: 5px solid yellow;
     border-right: 5px solid yellow;
+
     .first-paragraph {
         color: #5fff37;
     }
@@ -115,7 +118,7 @@ li {
         color: black;
         padding-top: 15px;
     }
-    
+
     .arrow2 {
         rotate: 90deg;
         padding: 10px;
@@ -181,3 +184,54 @@ h1 {
         z-index: -1;
     }
 }
+
+.page-2 {
+    background-color: yellow;
+    div:not(.photo-grid, .new, .vegan, .popular) {
+        background-color: white;
+        border-top: solid 2px black;
+        border-bottom: solid 2px black;
+        margin: 1em;
+        div {
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+        span {
+            display: block;
+        }
+        .new {
+            background-color: #AC77FF;
+            padding: 0 15px;
+            transform: rotate(2.5deg);
+            span {
+                transform: rotate(-2.5deg);
+            }
+        }
+        .vegan {
+            background-color: #5fff37;
+            padding: 0 12px;
+            transform: rotate(-3deg);
+            span {
+                transform: rotate(3deg);
+            }
+        }
+        .popular {
+            background-color: yellow;
+        }
+        p:not(.price) {
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        .price {
+            font-size: 1.5rem;
+        }
+    }
+    h3 {
+        text-transform: uppercase;
+        font-size: 1.5em;
+    }
+}
+
+/*plats för bilder*/
+
+
