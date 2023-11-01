@@ -22,7 +22,7 @@ button.hamburger-menu {
         display: block;
         width: 35px;
         height: 5px;
-        background-color: yellow;
+        background-color: #FFF236;
         border-radius: 6px;
         margin-bottom: 4px;
     }
@@ -100,11 +100,11 @@ input:checked+.menu nav {
     margin: 0;
     padding-left: 3em;
     padding-right: 3em;
-    border-left: 5px solid yellow;
-    border-right: 5px solid yellow;
+    border-left: 5px solid #FFF236;
+    border-right: 5px solid #FFF236;
 
     .first-paragraph {
-        color: #5fff37;
+        color: #02FF39;
     }
 
     .second-paragraph {
@@ -176,7 +176,7 @@ h1 {
     }
 
     .tahini {
-        color: #5fff37;
+        color: #02FF39;
         font-size: 4rem;
     }
 
@@ -190,7 +190,7 @@ h1 {
 }
 
 .page-2 {
-    background-color: yellow;
+    background-color: #FFF236;
 
     .photo-grid {
         display: grid;
@@ -285,7 +285,7 @@ h1 {
         }
 
         .vegan {
-            background-color: #5fff37;
+            background-color:#02FF39
             padding: 0 12px;
             transform: rotate(-3deg);
 
@@ -295,7 +295,7 @@ h1 {
         }
 
         .popular {
-            background-color: yellow;
+            background-color: #FFF236;
         }
 
         p:not(.price) {
@@ -316,7 +316,7 @@ h1 {
 }
 
 .page-3 {
-    background-color: #5fff37;
+    background-color: #02FF39;
     form {
         text-transform: uppercase;
         font-size: 1.5em;
@@ -325,6 +325,7 @@ h1 {
         row-gap: 0.7em;
         width: 450px;
         margin: auto;
+        padding: 1em 0;
         legend {
             grid-column-start: span 4;
             font-size: 1.5em;
@@ -350,43 +351,60 @@ h1 {
             margin-right: 5px;
         }
         .request {
-            background-color: yellow;
+            background-color: #FFF236;
             margin-left: 5px;
         }
     }
+    .contact {
+        width: 450px;
+        margin: auto;
+        background-image: url('../../assets/photos/resized/ronan-kruithof-PCE0T5i4pDI-unsplash.jpg');
+        background-size: cover;
+        background-position: center;
+
+        .contact-text {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            color: #29BCEA;
+            text-shadow: black -1.5px -1.5px;
+            align-self: center;
+            padding: 50px 0;
+            backdrop-filter: blur(2px);
+            box-shadow: 0 0 5px 5px #02FF39 inset;
+        }
+        span {
+            font-size: 3em;
+            font-weight: bold;
+            display: block;
+            grid-column-start: 1;
+            justify-self: end;
+            padding: 20px 0;
+        }
+        p {
+            font-size: 2em;
+            margin: 0;
+            padding: 20px 30px;
+        }
+    }
+    .cookies:not(.decline, .accept) {
+        background-color: #AC77FF;
+        display: flex;
+
+        p {
+            font-family: 'Roboto Condensed', sans-serif;
+            color: white;
+        }
+
+        button {
+            text-transform: uppercase;
+            border-radius: 10px;
+            border: 0;
+        }
+        .decline {
+            background-color: #FFF236;
+        }
+        .accept {
+            background-color: #02FF39;
+        }
+    }
 }
-/*
-    .book-table {
-        text-transform: uppercase;
-        font-size: 1.5em;
-
-        div,
-        legend {
-            margin: 0 100px 8px 100px;
-
-            input {
-                position: relative;
-                border-radius: 10px;
-                border: 0;
-                right: 0;
-            }
-        }
-*/
-
-
-    /*
-    .book-table{
-        text-transform: uppercase;
-        font-size: 1.5em;
-            input {
-                border-radius: 10px;
-                border: 0;
-            }
-            .cancel {
-                background-color: #AC77FF;
-            }
-            .request {
-                background-color: yellow;
-            }
-        }
-*/
