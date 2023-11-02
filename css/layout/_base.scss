@@ -285,7 +285,7 @@ h1 {
         }
 
         .vegan {
-            background-color:#02FF39
+            background-color:#02FF39;
             padding: 0 12px;
             transform: rotate(-3deg);
 
@@ -323,7 +323,7 @@ h1 {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         row-gap: 0.7em;
-        width: 450px;
+        width: 400px;
         margin: auto;
         padding: 1em 0;
         legend {
@@ -389,16 +389,24 @@ h1 {
     .cookies:not(.decline, .accept) {
         background-color: #AC77FF;
         display: flex;
+        align-items: center;
+        margin-top: 2em;
 
         p {
             font-family: 'Roboto Condensed', sans-serif;
             color: white;
+            padding: 0 1em;
         }
 
         button {
             text-transform: uppercase;
             border-radius: 10px;
             border: 0;
+            height: 1.4em;
+            width: 6em;
+            font-size: 1.5em;
+            margin: 0.5em 0.2em;
+
         }
         .decline {
             background-color: #FFF236;
