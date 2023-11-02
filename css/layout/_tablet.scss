@@ -1,0 +1,60 @@
+.page-1 {
+    padding-top: 4em;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+
+    .page-title {
+        grid-column-start: span 3;
+
+        .drizzle {
+            font-size: 1.96rem;
+            top: -13px;
+            right: 2px;
+        }
+
+        .tahini {
+            font-size: 5em;
+        }
+
+        .chickpeas {
+            font-size: 1.93em;
+            left: 11px;
+        }
+    }
+
+    .first-paragraph, .second-paragraph {
+        font-size: 1.7em;
+        text-align: left;
+        padding: 0 0 0 0.7em ;
+    }
+
+    .first-paragraph {
+        text-align: left;
+        grid-column-start: span 5;
+    }
+
+    figure {
+        grid-column-start: span 4;
+        
+
+        .salad {
+            width: 100%;
+            object-fit: contain;
+
+        }
+    }
+
+    .second-paragraph {
+        grid-column-start: span 4;
+        .arrow2 {
+            rotate: none;
+            height: 17px;
+        }
+    }
+
+
+}
+
+.page-3-content {
+    display: flex;
+}

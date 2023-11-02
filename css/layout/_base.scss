@@ -5,6 +5,11 @@ main {
         margin: 0;
     }
 
+    .arrow1 {
+        position: absolute;
+        z-index: -1;
+    }
+
 }
 
 button.hamburger-menu {
@@ -105,30 +110,33 @@ input:checked+.menu nav {
 
     .first-paragraph {
         color: #02FF39;
+        margin-bottom: 1em;
     }
 
     .second-paragraph {
         color: #AC77FF;
         background-color: white;
         padding-top: 1em;
+        margin-top: 1em;
+
+        .explore-menu {
+            display: block;
+            text-transform: uppercase;
+            color: black;
+            margin: 0;
+        }
+        .arrow2 {
+            rotate: 90deg;
+            height: 10px;
+        }
     }
 }
 
 .explore {
     display: flex;
+    flex-direction: column;
     background-color: white;
     justify-content: center;
-
-    .explore-menu {
-        text-transform: uppercase;
-        color: black;
-        padding-top: 15px;
-    }
-
-    .arrow2 {
-        rotate: 90deg;
-        padding: 10px;
-    }
 }
 
 h1 {
@@ -317,6 +325,7 @@ h1 {
 
 .page-3 {
     background-color: #02FF39;
+
     form {
         text-transform: uppercase;
         font-size: 1.5em;
@@ -385,8 +394,11 @@ h1 {
             margin: 0;
             padding: 20px 30px;
         }
+        .street-address {
+            padding-right: 105px;
+        }
     }
-    .cookies:not(.decline, .accept) {
+    .cookies{
         background-color: #AC77FF;
         display: flex;
         align-items: center;

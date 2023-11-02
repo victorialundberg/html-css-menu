@@ -1,2 +1,6 @@
 @use "layout/_base";
 @import "vendors/normalize";
+
+@media screen and (min-width: 900px) {
+    @import "layout/tablet";
+}
