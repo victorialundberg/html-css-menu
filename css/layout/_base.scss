@@ -398,34 +398,38 @@ h1 {
             padding-right: 105px;
         }
     }
-    .cookies{
-        background-color: #AC77FF;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 2em;
 
-        p {
-            font-family: 'Roboto Condensed', sans-serif;
-            color: white;
-            padding: 0 1em;
-        }
+}
+.cookies{
+    background-color: #AC77FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
-        button {
-            text-transform: uppercase;
-            border-radius: 10px;
-            border: 0;
-            height: 1.4em;
-            width: 6em;
-            font-size: 1.5em;
-            margin: 0.5em 0.2em;
+    p {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        padding: 0 1em;
+    }
 
-        }
-        .decline {
-            background-color: #FFF236;
-        }
-        .accept {
-            background-color: #02FF39;
-        }
+    .cookie-buttons {
+        padding-right: 20px;
+    }
+
+    button {
+        text-transform: uppercase;
+        border-radius: 10px;
+        border: 0;
+        height: 1.4em;
+        width: 6em;
+        font-size: 1.5em;
+        margin: 0.5em 0.2em;
+
+    }
+    .decline {
+        background-color: #FFF236;
+    }
+    .accept {
+        background-color: #02FF39;
     }
 }
