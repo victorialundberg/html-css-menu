@@ -4,3 +4,7 @@
 @media screen and (min-width: 900px) {
     @import "layout/tablet";
 }
+
+@media screen and (min-width: 1041px) {
+    @import "layout/desktop";
+}

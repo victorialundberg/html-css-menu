@@ -1,0 +1,27 @@
+h1 {
+writing-mode: vertical-lr;
+text-orientation: upright;
+writing-mode: vertical-lr;
+text-orientation: upright;
+height: 100vh;
+letter-spacing: normal;
+padding-right: 0.5em;
+width: auto;
+font-size: 2.3em;
+}
+
+button.hamburger-menu {
+        left: 16px;
+    }
+input.open-menu {
+    left: 22px;
+}
+
+.cookies {
+    position: relative;
+    z-index: 4;
+}
+
+.first-paragraph, .second-paragraph {
+    font-size: 2em;
+}
