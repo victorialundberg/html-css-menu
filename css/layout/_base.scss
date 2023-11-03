@@ -66,8 +66,9 @@ main {
             width: 100vw;
             height: 1.5em;
             margin: 0;
-            padding-top: 0.2em;
+            padding-top: 0.7em;
             padding-left: 0.5em;
+            font-size: 1.2em;
         }
         nav {
             position: fixed;
@@ -161,7 +162,7 @@ main {
             }
     
             .first-paragraph, .second-paragraph {
-                font-size: 1.75em;
+                font-size: 1em;
             }
             .first-paragraph {
                 color: #02FF39;
@@ -188,6 +189,10 @@ main {
                 }
             }
             figure {
+                .salad {
+                    width: 300px;
+                    object-fit: contain;
+                }
                 .arrow-1 {
                     display: none;
                 }
@@ -237,6 +242,7 @@ main {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             height: 4em;
+            padding-top: 5px;
 
             :nth-child(1) {
                 grid-column-start: span 2;
@@ -264,12 +270,12 @@ main {
 
         h3 {
             text-transform: uppercase;
-            font-size: 1.5em;
+            font-size: 1em;
             margin: 0;
         }
 
         .price {
-            font-size: 1.5rem;
+            font-size: 1rem;
             margin: 0;
         }
 
@@ -316,11 +322,9 @@ main {
         p:not(.price) {
             font-family: 'Roboto Condensed', sans-serif;
             margin: 0;
+            font-size: 0.8em;
         }
 
-        .price {
-            font-size: 1.5rem;
-        }
 
         :nth-child(1) {
             margin-top: 0;
@@ -337,11 +341,11 @@ main {
 
     form {
         text-transform: uppercase;
-        font-size: 1.5em;
+        font-size: 1.2em;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         row-gap: 0.7em;
-        width: 400px;
+        width: 350px;
         margin: auto;
         padding: 1em 0;
 
@@ -383,7 +387,7 @@ main {
     }
 
     .contact {
-        width: 450px;
+        width: 375px;
         margin: auto;
         background-image: url('../../assets/photos/resized/ronan-kruithof-PCE0T5i4pDI-unsplash.jpg');
         background-size: cover;
@@ -401,7 +405,7 @@ main {
         }
 
         span {
-            font-size: 3em;
+            font-size: 2em;
             font-weight: bold;
             display: block;
             grid-column-start: 1;
@@ -410,7 +414,7 @@ main {
         }
 
         p {
-            font-size: 2em;
+            font-size: 1.5em;
             margin: 0;
             padding: 20px 30px;
         }
@@ -443,8 +447,8 @@ main {
         border-radius: 10px;
         border: 0;
         height: 1.4em;
-        width: 6em;
-        font-size: 1.5em;
+        width: 4em;
+        font-size: 1em;
         margin: 0.5em 0.2em;
 
     }
