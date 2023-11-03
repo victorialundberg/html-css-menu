@@ -103,21 +103,26 @@ input:checked+.menu nav {
     background-color: black;
     text-align: center;
     margin: 0;
-    padding-left: 3em;
-    padding-right: 3em;
     border-left: 5px solid #FFF236;
     border-right: 5px solid #FFF236;
+}
 
+.page-1 {
+
+    .first-paragraph, .second-paragraph {
+        font-size: 1.75em;
+    }
     .first-paragraph {
         color: #02FF39;
         margin-bottom: 1em;
+        padding: 0 50px;
     }
 
     .second-paragraph {
         color: #AC77FF;
         background-color: white;
-        padding-top: 1em;
         margin-top: 1em;
+        padding: 10px 30px 0;
 
         .explore-menu {
             display: block;
@@ -125,6 +130,7 @@ input:checked+.menu nav {
             color: black;
             margin: 0;
         }
+
         .arrow2 {
             rotate: 90deg;
             height: 10px;
@@ -156,7 +162,7 @@ h1 {
 
 .page-title {
     margin: 0;
-    padding-top: 7em;
+    padding-top: 12em;
     text-transform: uppercase;
     position: relative;
     min-width: 100px;
@@ -178,20 +184,20 @@ h1 {
 
     .drizzle {
         color: #ac77ff;
-        font-size: 1.57rem;
-        top: -9px;
-        right: 0px;
+        font-size: 2.7em;
+        top: -18px;
+        right: 3px;
     }
 
     .tahini {
         color: #02FF39;
-        font-size: 4rem;
+        font-size: 7rem;
     }
 
     .chickpeas {
         color: #ff0;
-        font-size: 1.56rem;
-        left: 8px;
+        font-size: 2.72em;
+        left: 15px;
         bottom: -6px;
         z-index: -1;
     }
@@ -207,9 +213,11 @@ h1 {
         margin-left: 0.3em;
         margin-right: 0.3em;
         padding-top: 0;
+
         figure {
             width: 100%;
             height: 75%;
+
             img {
                 width: 100%;
                 height: 100%;
@@ -222,6 +230,7 @@ h1 {
 
     .food-menu {
         padding-bottom: 0.5em;
+
         .food-item {
             background-color: white;
             border-top: solid 2px black;
@@ -293,7 +302,7 @@ h1 {
         }
 
         .vegan {
-            background-color:#02FF39;
+            background-color: #02FF39;
             padding: 0 12px;
             transform: rotate(-3deg);
 
@@ -314,9 +323,11 @@ h1 {
         .price {
             font-size: 1.5rem;
         }
+
         :nth-child(1) {
             margin-top: 0;
         }
+
         :nth-child(7) {
             margin-bottom: 0;
         }
@@ -335,13 +346,16 @@ h1 {
         width: 400px;
         margin: auto;
         padding: 1em 0;
+
         legend {
             grid-column-start: span 4;
             font-size: 1.5em;
         }
+
         label {
             grid-column-start: 1;
         }
+
         input:not(.cancel, .request) {
             border-radius: 10px;
             border: 0;
@@ -349,21 +363,26 @@ h1 {
             font-size: 1em;
             margin-left: 8px;
         }
-        .cancel, .request {
+
+        .cancel,
+        .request {
             text-transform: uppercase;
             border-radius: 10px;
             border: 0;
             grid-column-start: span 2;
         }
+
         .cancel {
             background-color: #AC77FF;
             margin-right: 5px;
         }
+
         .request {
             background-color: #FFF236;
             margin-left: 5px;
         }
     }
+
     .contact {
         width: 450px;
         margin: auto;
@@ -381,6 +400,7 @@ h1 {
             backdrop-filter: blur(2px);
             box-shadow: 0 0 5px 5px #02FF39 inset;
         }
+
         span {
             font-size: 3em;
             font-weight: bold;
@@ -389,18 +409,21 @@ h1 {
             justify-self: end;
             padding: 20px 0;
         }
+
         p {
             font-size: 2em;
             margin: 0;
             padding: 20px 30px;
         }
+
         .street-address {
             padding-right: 105px;
         }
     }
 
 }
-.cookies{
+
+.cookies {
     background-color: #AC77FF;
     display: flex;
     align-items: center;
@@ -413,7 +436,7 @@ h1 {
     }
 
     .cookie-buttons {
-        padding-right: 20px;
+        padding-right: 5px;
     }
 
     button {
@@ -426,9 +449,11 @@ h1 {
         margin: 0.5em 0.2em;
 
     }
+
     .decline {
         background-color: #FFF236;
     }
+
     .accept {
         background-color: #02FF39;
     }
