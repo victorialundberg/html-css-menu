@@ -5,27 +5,13 @@
 
     .page-title {
         grid-column-start: span 3;
-
-        .drizzle {
-            font-size: 1.96rem;
-            top: -13px;
-            right: 2px;
-        }
-
-        .tahini {
-            font-size: 5em;
-        }
-
-        .chickpeas {
-            font-size: 1.93em;
-            left: 11px;
-        }
     }
 
-    .first-paragraph, .second-paragraph {
-        font-size: 1.7em;
+    .first-paragraph,
+    .second-paragraph {
+        font-size: 2em;
         text-align: left;
-        padding: 0 0 0 0.7em ;
+        padding: 0 20px 0 0;
     }
 
     .first-paragraph {
@@ -35,8 +21,6 @@
 
     figure {
         grid-column-start: span 4;
-        
-
         .salad {
             width: 100%;
             object-fit: contain;
@@ -46,6 +30,7 @@
 
     .second-paragraph {
         grid-column-start: span 4;
+
         .arrow2 {
             rotate: none;
             height: 17px;
@@ -60,4 +45,3 @@
         display: flex;
     }
 }
-
