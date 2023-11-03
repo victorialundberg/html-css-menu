@@ -182,14 +182,17 @@ main {
                     margin: 0;
                 }
         
-                .arrow2 {
+                .arrow-2 {
                     rotate: 90deg;
                     height: 15px;
                 }
             }
-            .arrow1 {
-                display: none;
+            figure {
+                .arrow-1 {
+                    display: none;
+                }
             }
+
     
         }
        

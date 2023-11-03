@@ -3,9 +3,11 @@ main {
         .open-menu {
             left: 46px;
         }
+
         .hamburger-menu {
             left: 40px;
         }
+
         h1 {
             writing-mode: vertical-lr;
             text-orientation: upright;
@@ -18,12 +20,6 @@ main {
         }
     }
 
-    .page-1,
-    .page-2 {
-        border-left: 5px solid #fff236;
-        border-right: 5px solid #fff236;
-    }
-
     .page-1-grid-wrapper,
     .page-2,
     .page-3 {
@@ -32,52 +28,64 @@ main {
         grid-column: 2 span 11;
     }
 
-    .page-1 {
-        grid-column: 2 / span 11;
-        display: grid;
-        grid-template-columns: repeat(11, 1fr);
-        padding: 0;
+    .page-1-grid-wrapper {
 
-        .first-paragraph,
-        .second-paragraph {
-            font-size: 2.5em;
+        .page-1,
+        .page-2 {
+            border-left: 5px solid #fff236;
+            border-right: 5px solid #fff236;
         }
 
-        .page-title {
-            grid-column: 1 / span 4;
+        .page-1 {
+            grid-column: 2 / span 11;
+            display: grid;
+            grid-template-columns: repeat(11, 1fr);
+            padding: 0;
 
-            div {
-                left: 55%;
+            .first-paragraph,
+            .second-paragraph {
+                font-size: 2.5em;
             }
-        }
 
-        .first-paragraph {
-            grid-column: 5 / span 7;
-            padding-left: 30px;
-        }
+            .page-title {
+                grid-column: 1 / span 4;
 
-        .second-paragraph {
-            grid-column: 5 / span 7;
-
-            .arrow2 {
-                height: 30px;
+                div {
+                    left: 55%;
+                }
             }
-        }
 
-        figure {
-            grid-column: 1 / span 4;
-            object-fit: cover;
-        }
+            .first-paragraph {
+                grid-column: 5 / span 7;
+                padding-left: 30px;
+            }
 
-        .arrow1 {
-            position: relative;
-            display: block;
-            height: 50px;
-            rotate: 90deg;
-            bottom: 20px;
-            left: 20px;
+            .second-paragraph {
+                grid-column: 5 / span 7;
+
+                .arrow-2 {
+                    height: 30px;
+                }
+            }
+
+            figure {
+                grid-column: 1 / span 4;
+                object-fit: cover;
+
+                /*.arrow-1 {
+                    position: relative;
+                    display: block;
+                    height: 50px;
+                    rotate: 90deg;
+                    bottom: 20px;
+                    left: 20px;
+                }*/
+            }
+
+
         }
     }
+
 
     .page-2 {
         display: grid;
