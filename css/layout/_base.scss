@@ -183,7 +183,7 @@ main {
                 }
         
                 .arrow-2 {
-                    rotate: 90deg;
+                    transform: rotate(90deg);
                     height: 15px;
                 }
             }
@@ -345,9 +345,10 @@ main {
         margin: auto;
         padding: 1em 0;
 
-        legend {
+        h3 {
             grid-column-start: span 4;
-            font-size: 1.5em;
+            font-size: 1.9em;
+            margin: 0;
         }
 
         label {
