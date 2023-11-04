@@ -1,55 +1,57 @@
-.page-1-grid-wrapper {
-    .page-1 {
-        padding-top: 4em;
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-
-        .page-title {
-            grid-column-start: span 3;
-        }
-
-        .first-paragraph,
-        .second-paragraph {
-            font-size: 2em;
-            text-align: left;
-            padding: 0 20px 0 0;
-        }
-
-        .first-paragraph {
-            text-align: left;
-            grid-column-start: span 5;
-        }
-
-        figure {
-            grid-column-start: span 4;
-
-            .salad {
-                width: 100%;
-                object-fit: contain;
-
+main {
+    .page-1-grid-wrapper {
+        .page-1 {
+            padding-top: 4em;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+    
+            .page-title {
+                grid-column-start: span 3;
             }
-        }
-
-        .second-paragraph {
-            grid-column-start: span 4;
-
-            .explore-menu {
-
-                .arrow-2 {
-                    transform: rotate(0deg);
-                    height: 25px;
+    
+            .first-paragraph,
+            .second-paragraph {
+                font-size: 2em;
+                text-align: left;
+                padding: 0 20px 0 0;
+            }
+    
+            .first-paragraph {
+                text-align: left;
+                grid-column-start: span 5;
+            }
+    
+            figure {
+                grid-column-start: span 4;
+    
+                .salad {
+                    width: 100%;
+                    object-fit: contain;
+    
+                }
+            }
+    
+            .second-paragraph {
+                grid-column-start: span 4;
+    
+                .explore-menu {
+    
+                    .arrow-2 {
+                        transform: rotate(0deg);
+                        height: 25px;
+                    }
                 }
             }
         }
+    
+    
+    
+    
     }
-
-
-
-
-}
-
-.page-3 {
-    .page-3-content {
-        display: flex;
+    
+    .page-3 {
+        .page-3-content {
+            display: flex;
+        }
     }
 }
